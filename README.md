@@ -57,7 +57,7 @@ We conduct extensive experiments on our collected dataset. The model performance
 
 - Test:
     ```
-    python main.py --model emseg_tiny --vis --device_id 0 --epoches 300 --crop_val --lr 0.01 --crop_size 1024 --batch_size 64 --weight checkpoint/best.pt --test_only --save_path exp/10/test_01
+    python main.py --model emseg_tiny --vis --device_id 0 --crop_val --crop_size 1024 --batch_size 16 --weight checkpoint/best.pt --test_only --save_path exp/10/test_01
     ```
 
 - Predict:
